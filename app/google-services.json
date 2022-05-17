@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479213422705",
+    "project_id": "agriculture-c0b45",
+    "storage_bucket": "agriculture-c0b45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479213422705:android:cde8755e157eef909773d0",
+        "android_client_info": {
+          "package_name": "com.example.agriculture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479213422705-o64hnv1jvlf15iv8d56aj7h14ue7i4kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA9o7-WVufVqV1_5IFDpasFYCcU47y0eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479213422705-o64hnv1jvlf15iv8d56aj7h14ue7i4kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

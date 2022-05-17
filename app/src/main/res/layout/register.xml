@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img2"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="289dp"
+                    android:layout_height="88dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Register Here!!"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/name_txt"
+                    android:layout_width="346dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/round"
+                    android:hint=" Name"
+                    android:inputType="text"
+
+                    android:padding="16dp"
+                    android:textColorHint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/email_txt"
+                    android:layout_width="346dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/round"
+                    android:hint=" Email Id"
+
+                    android:inputType="text"
+
+                    android:padding="16dp"
+                    android:textColorHint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name_txt"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/phonenumber_txt"
+                    android:layout_width="346dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round"
+                    android:hint=" Phone Number"
+
+                    android:inputType="text"
+
+                    android:padding="16dp"
+                    android:textColorHint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/email_txt"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/password_txt"
+                    android:layout_width="346dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/round"
+                    android:hint=" Password"
+
+                    android:password="true"
+                    android:inputType="text"
+
+                    android:padding="16dp"
+                    android:textColorHint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/phonenumber_txt"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/confirmpassword_txt"
+                    android:layout_width="346dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="16dp"
+
+                    android:background="@drawable/round"
+                    android:hint=" Confirm Password"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:inputType="text"
+
+                    android:password="true"
+
+                    android:padding="16dp"
+                    android:textColorHint="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/password_txt"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/signup_btn"
+                    android:layout_width="153dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="44dp"
+                    android:text="Submit"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:background="#CFBC16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/confirmpassword_txt" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
